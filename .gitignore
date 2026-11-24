@@ -1,0 +1,10 @@
+# Windows download markers (created when files are copied from Windows)
+*:Zone.Identifier
+*Zone.Identifier
+# Jupyter / Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+# Python virtual environments
+.venv/
+venv/

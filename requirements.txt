@@ -1,0 +1,11 @@
+# Python packages needed to run RandomForest_Final.ipynb (versions it was run with)
+pandas==2.3.3
+numpy==2.2.6
+scikit-learn==1.7.2
+statsmodels==0.15.0
+scipy==1.15.3
+matplotlib==3.10.9
+seaborn==0.13.2
+openpyxl==3.1.5
+joblib==1.6.0
+ipykernel
