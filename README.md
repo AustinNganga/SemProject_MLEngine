@@ -73,9 +73,16 @@ python3 -m pip install -r requirements.txt
 Then open `RandomForest_Final.ipynb` in VS Code or Jupyter and choose **Restart → Run All** (about 3–6 minutes). Everything is regenerated: cleaned data, splits, results, figures, models and the app export. The random seed is fixed (42), so the results are reproducible.
 
 ## Dataset
-**Digital Sedentary Behavior, Mobile Device Dependence** dataset:
+**Digital Sedentary Behavior, Mobile Device Dependence, Musculoskeletal Symptoms, and Mental Health among University Students** (Version 3), published on Mendeley Data:
 - 1,220 university students;
 - five linked questionnaires: background and phone use, Test of Mobile Dependence (TMD), Nordic musculoskeletal questionnaire, Beck Depression Inventory, and the State-Trait Anxiety Inventory (STAI).
+
+- **Source:** https://data.mendeley.com/datasets/k6pwtndj44/3
+- **DOI:** [10.17632/k6pwtndj44.3](https://doi.org/10.17632/k6pwtndj44.3)
+- **Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The data may be shared and adapted with credit to the authors. The raw files in `Digital Sedentary Behavior, Mobile Device Dependen/` are included unchanged; all cleaning is done in the notebook.
+
+**Citation:**
+Giraldo-Jimenez, C. F., Botero-Carvajal, A., Bolaños-Hincapié, S., Pastás-Lazo, L. D., & Puente-Campo, S. D. (2026). *Digital Sedentary Behavior, Mobile Device Dependence, Musculoskeletal Symptoms, and Mental Health among University Students* (Version 3) [Data set]. Mendeley Data. https://doi.org/10.17632/k6pwtndj44.3
 
 ## Why we changed datasets
 We started with `mental_health_and_technology_usage_2024.csv` (see `previous_dataset/`). We switched to the Digital Sedentary Behavior dataset because it has **validated clinical questionnaires**: a real depression score (Beck), a standard phone-dependence scale (TMD) and an anxiety scale (STAI). That gives a meaningful target and inputs a student can actually answer in an app.
